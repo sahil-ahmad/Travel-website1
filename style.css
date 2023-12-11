@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 215, 215);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    height: 50px;
+    box-shadow: .5px .5px 3px black;
+    position: fixed;
+    width: 100%;
+}
+
+span {
+    color: orangered;
+}
+
+ul {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+ul li a:hover, ul li a#active {
+    color: orangered;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.showdata {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    right: 30px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 148, 148);
+    width: 180px;
+    height: 250px;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.icon i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.input {
+    width: 250px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+input {
+    background-color: lightgray;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    height: 25px;
+    outline: none;
+    margin-left: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main img {
+    height: 400px;
+    margin: 15px;
+}
+
+main .main-text {
+    line-height: px;
+    margin-right: 30px;
+}
+
+main .main-text p {
+    margin-top: 5px;
+}
+
+main .main-text button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+main .main-text button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 2px solid orangered;
+}
+
+/* booking */
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-inline: auto;
+    margin-block: 15px;
+    max-width: 1000px;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+.book .b {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+}
+
+.book .b #input {
+    background-color: rgb(192, 192, 192);
+}
+
+.book button {
+    height: 40px;
+    padding: 5px 15px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.book button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 2px solid orangered;
+
+}
+
+/* packages */
+
+.head h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.crd {
+
+    height: 320px;
+    width: 302px;
+    margin: 15px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
+    margin-right: 35px;
+}
+
+.crd img {
+    height: 200px;
+}
+
+.crd .crd-text {
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+/* Tour */
+
+.tour-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.tcrd {
+    background-color: white;
+    height: 280px;
+    width: 220px;
+    text-align: center;
+    line-height: 30px;
+    margin: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
+
+}
+
+.plan {
+    margin-inline: auto;
+    margin-top: 20px;
+    background-color: rgb(204, 195, 195);
+    width: 180px;
+
+}
+
+.tcrd button {
+    padding: 8px 10px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+}
+
+.tcrd button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 2px solid orangered;
+}
+
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.connect input {
+    width: 300px;
+    margin: 5px;
+}
+
+.connect button {
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.connect button:hover {
+    background-color: orangered;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px solid black;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    flex-wrap: wrap;
+   
+}
+
+footer .text {
+    margin-top: 18px;
+
+}
+
+footer .text h1 {
+    font-size: 25px;
+}
+
+footer .text p {
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.active1{
+    background-color: black;
+    color: white;
+}
+.active1 nav{
+    color: black;
+}
+.active1 .main-text{
+    color: white;
+}
+.active1 .book{
+    color: black;
+}
+.active1 .package{
+    color: black;
+}
+.active1 .tour{
+    color: black;
+}
+.active1 .connect{
+    border: 1px solid white;
+}
+@media screen and (max-width:950px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+        margin-inline: 20px;
+        margin-block: 15px;
+        max-width: 900px;
+        min-height: 100px;
+        border-radius: 5px;
+    }
+
+    .book button {
+        height: 40px;
+        padding: 5px 15px;
+        margin: 10px;
+        background-color: orangered;
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .book button:hover {
+        background-color: white;
+        color: black;
+        font-weight: 600;
+        border: 2px solid orangered;
+    }
+}
+
+@media screen and (max-width:590px) {
+    main img {
+        height: 350px;
+        margin: 15px;
+    }
+
+}
+
+@media screen and (max-width:520px) {
+    .input{
+        display: none;
+    }
+    main img {
+        height: 300px;
+        margin: 15px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    /* nav{
+        width: 100%;
+    } */
+    main img {
+        height: 250px;
+        margin: 15px;
+    }
+    .main-text{
+        margin-left: 15px;
+    }
+    .cards{
+    margin-inline:auto;
+    }
+    .connect{
+        width: 350px;
+        margin: auto;
+    }
+    footer .text{
+        margin: 10px;
+    }
+    footer .text h1{
+        font-size: 20px;
+    }
+    footer .text p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Go<span>Trip</span></h1>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Search Here...">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </div>
+
+
+            <ul>
+                <li><a id="active" onclick="home()" href="#">Home</a></li>
+                <li><a id="package" onclick="packages()" href="#">Packages</a></li>
+                <li><a id="tour" onclick="Tour()" href="#">Tour</a></li>
+                <li><a id="review" onclick="review()" href="#">Review</a></li>
+                <li><a id="contact" onclick="contacts()" href="#">Contact</a></li>
+            </ul>
+            <div class="icon">
+                <i id="moon" class="fa-sharp fa-solid fa-moon"></i>
+                <i id="user" class="fa-sharp fa-solid fa-user"></i>
+                <i id="bar" class="fa-solid fa-bars"></i>
+
+            </div>
+        </nav>
+        
+        <main>
+            <img src="https://cdn.shopify.com/s/files/1/0514/8324/6778/files/pngwing_1_copy_1_2.png?v=1647516125"
+                alt="">
+            <div class="main-text">
+                <h1>Best vacation Destination <br> For YOu</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor possimus suscipit, nesciunt non
+                    impedit in quam vel <br> dolorum magni eius dolores sunt voluptatibus perferendis.</p>
+                <button>Explore</button>
+            </div>
+        </main>
+        <!-- booking -->
+        <div class="book">
+            <div class="b">
+                <h3>Where Gone</h3>
+                <input id="input" type="text" placeholder="Where You Gone">
+            </div>
+
+            <div class="b">
+                <h3>Arrival</h3>
+                <input id="input" type="date">
+            </div>
+
+            <div class="b">
+                <h3>Leaving</h3>
+                <input id="input" type="date">
+            </div>
+
+            <button>Book</button>
+
+        </div>
+
+        <!-- Packages -->
+        <div class="package">
+            <div class="head">
+                <h1>Best <span>Packages</span> </h1>
+            </div>
+
+            <div class="cards">
+                <div class="crd">
+                    <img src="https://images.squarespace-cdn.com/content/v1/54b686e1e4b0bf25db746502/1439841255602-HTYIFPS8UWSXTTEIQN69/CC+Ex+Living+Wing+Side+-+Skalko.jpg?format=1500w"
+                        alt="">
+                    <div class="crd-text">
+                        <h3>Jaipur,India</h3>
+                        <p>1 Week Tour</p>
+                        <p><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>5,686</p>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="https://images.squarespace-cdn.com/content/v1/54b686e1e4b0bf25db746502/1439841255602-HTYIFPS8UWSXTTEIQN69/CC+Ex+Living+Wing+Side+-+Skalko.jpg?format=1500w"
+                        alt="">
+                    <div class="crd-text">
+                        <h3>Jaipur,India</h3>
+                        <p>1 Week Tour</p>
+                        <p><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>5,686</p>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="https://images.squarespace-cdn.com/content/v1/54b686e1e4b0bf25db746502/1439841255602-HTYIFPS8UWSXTTEIQN69/CC+Ex+Living+Wing+Side+-+Skalko.jpg?format=1500w"
+                        alt="">
+                    <div class="crd-text">
+                        <h3>Jaipur,India</h3>
+                        <p>1 Week Tour</p>
+                        <p><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>5,686</p>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="https://images.squarespace-cdn.com/content/v1/54b686e1e4b0bf25db746502/1439841255602-HTYIFPS8UWSXTTEIQN69/CC+Ex+Living+Wing+Side+-+Skalko.jpg?format=1500w"
+                        alt="">
+                    <div class="crd-text">
+                        <h3>Jaipur,India</h3>
+                        <p>1 Week Tour</p>
+                        <p><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>5,686</p>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="https://images.squarespace-cdn.com/content/v1/54b686e1e4b0bf25db746502/1439841255602-HTYIFPS8UWSXTTEIQN69/CC+Ex+Living+Wing+Side+-+Skalko.jpg?format=1500w"
+                        alt="">
+                    <div class="crd-text">
+                        <h3>Jaipur,India</h3>
+                        <p>1 Week Tour</p>
+                        <p><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>5,686</p>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="https://images.squarespace-cdn.com/content/v1/54b686e1e4b0bf25db746502/1439841255602-HTYIFPS8UWSXTTEIQN69/CC+Ex+Living+Wing+Side+-+Skalko.jpg?format=1500w"
+                        alt="">
+                    <div class="crd-text">
+                        <h3>Jaipur,India</h3>
+                        <p>1 Week Tour</p>
+                        <p><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>5,686</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tour -->
+
+        <div class="tour">
+            <div class="head">
+                <h1>
+                    Our <span>Tour</span>
+                </h1>
+            </div>
+            <div class="tour-cards">
+                <div class="tcrd">
+                    <div class="plan">
+                        <h3>Standard Plan</h3>
+                    </div>
+                    <h3>$40/Month</h3>
+                    <p>20 Days</p>
+                    <p>Food</p>
+                    <p>Drinks</p>
+                    <p>Luxury Hotels</p>
+                    <p>Safety Guide</p>
+                    <button>Choose Plan</button>
+                </div>
+
+                <div class="tcrd">
+                    <div class="plan">
+                        <h3>Standard Plan</h3>
+                    </div>
+                    <h3>$40/Month</h3>
+                    <p>20 Days</p>
+                    <p>Food</p>
+                    <p>Drinks</p>
+                    <p>Luxury Hotels</p>
+                    <p>Safety Guide</p>
+                    <button>Choose Plan</button>
+                </div>
+
+                <div class="tcrd">
+                    <div class="plan">
+                        <h3>Standard Plan</h3>
+                    </div>
+                    <h3>$40/Month</h3>
+                    <p>20 Days</p>
+                    <p>Food</p>
+                    <p>Drinks</p>
+                    <p>Luxury Hotels</p>
+                    <p>Safety Guide</p>
+                    <button>Choose Plan</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- review -->
+
+        <!-- Contact -->
+
+        <div class="contact">
+            <div class="head">
+                <h1>Contact <span>us</span></h1>
+            </div>
+            <div class="connect">
+                <input type="text" placeholder="Enter Your Name" is="name">
+                <input type="text" placeholder="Enter Your Number" id="number">
+                <button>Connect</button>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="text">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Molestias eaque id voluptas aut
+                    corporis nobis sunt provident, <br> distinctio, veniam cum temporibus. Dignissimos, quae vero!</p>
+            </div>
+            <div class="text">
+                <h1>Branches</h1>
+                <p>Canada</p>
+                <p>London</p>
+                <p>Russia</p>
+                <p>Dubai</p>
+
+            </div>
+
+            <div class="text">
+                <h1>Contact</h1>
+                <p>Youtube</p>
+                <p>Instagram</p>
+                <p>Twitter</p>
+                <p>Facebook</p>
+                <p>Printrest</p>
+            </div>
+
+            <div class="text">
+                <h1>Quick Link</h1>
+                <p>Home</p>
+                <p>Packages</p>
+                <p>Contact</p>
+                <p>Manymore</p>
+
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
